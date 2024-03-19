@@ -1,0 +1,61 @@
+/* importing the fonts library: */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* { /*setting up the entire page font family and giving the page a box sizing to the border*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #FFFBF5;
+    /* border-bottom: 4px solid black;     i want to  add this but ill keep it here if i wanted to change some design in the website*/
+    border: solid;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 5%;  /** left and right padding */
+}
+header ul li{
+    display: inline-block;
+}
+header h2 img{
+    font-size: 40px;
+    box-shadow: #FFFBF5;
+}
+header nav{
+    list-style: none;
+    /* border: solid; */
+    display: flex;
+    gap: 30px;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.3s;
+}
+/* header nav a.active{
+    background: #7743DB ; #7469B6
+    color: white;
+} */
+header nav a:hover{
+    background: #7743DB;
+    color: white;
+}
+header nav ul li:hover > a:not(:hover){
+    background: none;
+}
+main .home{
+    background-color: white;
+}
+footer{
+    height: 20%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+}
