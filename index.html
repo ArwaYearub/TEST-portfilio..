@@ -9,21 +9,31 @@
 </head>
 
 <body>
-    <header>
-        <h2><!-- MY picture logo will be here --> <a href="#home"><img src="/assets/logo-png.png"
-                    alt="Logo named arwa with a yelloe square on the left" width="50%"></a></h2>
+    <div class="status-bar-container">
+        <div class="status-bar">
+            <!-- done for now work in css -->
+        </div>
+    </div>
+    <header class="topnav-wrapper">
+        <h2>
+            <a href="#home"><img src="/assets/logo-png.png" alt="arwa logo" width="100px" height="100%"></a>
+        </h2>
         <nav>
-            <ul>
-                <li><a href="/" class="active">Home</a></li>
-                <li><a href="#about" >About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <!-- <li><a href="#Services">Services</a></li> !![[ i am still thinking if i rly whant to add this or not]]!!.-->
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
+            <div class="topnav-menu">
+                <ul class="topnav-inks">
+                    <li><a href="/"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#skills"> Skills </a></li>
+                    <!-- <li><a href="#Services">Services</a></li> !![[ i am still thinking if i rly whant to add this or not]]!!.-->
+                    <li><a href="#contact"> Contact Me </a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main>
-        <h2>My main</h2>
+    <main class="main-wrapper">
+        <section class="About Me"></section>
+        <section class="section1"></section>
+        <section class="section1"></section>
     </main>
 
     <footer>
@@ -35,27 +45,31 @@
         </div>
         <ul class="socials">
             <li>
-                <a href="https://github.com/ArwaYearub"><img src="./assets/github.png" alt="github account" width="20px"></i></a>
+                <a href="https://github.com/ArwaYearub"><img src="./assets/github.png" alt="github account"
+                        width="20px"></i></a>
             </li>
             <!-- <li>
-                i don't know how to include my email in here
+                i don't know how to include my email in here (will look this up later)
                 <a href="arwa.yaareb@gmail.com"><img src="./assets/mail.png" alt="Email Address" width="20px"></i></a>   
             </li> -->
             <li>
-                <a href="https://www.linkedin.com/in/arwa-yaareb-4ab720292/"><img src="./assets/linkedin.png" alt="linkedin account" width="20px"></i></a>
+                <a href="https://www.linkedin.com/in/arwa-yaareb-4ab720292/"><img src="./assets/linkedin.png"
+                        alt="linkedin account" width="20px" height="20px"></i></a>
             </li>
         </ul>
-        <ul class="footer-page-links">
-            <li>
-                <a href="/">Home</a>
-                <a href="#About">About</a>
-                <a href="#Skills">Skills</a>
-                <a href="#Contact">Contact Me</a>
-            </li>
-        </ul>
-        <p>Arwa Yaareb 2024</p>
+        <div class="footer-links-container">
+            <ul class="footer-page-links">
+                <li>
+                    <a href="/">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Skills">Skills</a>
+                    <a href="#Contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+
+        <p>Copyright © 2024 Arwa Yaareb All rights reserved</p>
     </footer>
     <script src="app.js"></script>
 </body>
-
 </html>
